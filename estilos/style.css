@@ -14,43 +14,34 @@ body {
     overflow-x: hidden;
 }
 
-main {
-    width: 100vw;
-    height: 100vh;
-}
-
-section {
-    max-width: 89%;
-    max-height: 97%;
-}
-
 .container {
-    margin-left: 20px;
     display: flex;
     flex-flow: column wrap;
-    justify-content: space-evenly;
+    
     align-items: center;
     flex: none;
+    width: 100vw;
+    height: 100vh;
 }
 
 .left > img {
     width: 65px;
     margin-top: 10px;
-    margin-right: 450px;
 }
 
 .right {
     display: flex;
+    flex-flow: row nowrap;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding-top: 20px;
     width: 500px;
     height: 540px;
-    margin-bottom: 300px;
 }
 
-h1 {
-    font-size: 3.6em;
-    line-height: 70px;
+div.right h1 {
+    font-size: 2.5em;
 }
 
 h4 {
@@ -127,8 +118,8 @@ input#botao:hover {
 div#login {
     display: none;
     position: fixed;
-    width: 600px;
-    height: 600px;
+    width: 400px;
+    height: 500px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -172,7 +163,7 @@ input#iemail {
     border: 1px solid gray;
     background-color: black;
     height: 50px;
-    width: 400px;
+    width: 300px;
     padding-left: 10px;
     font-size: 1em;
     border-radius: 5px;
@@ -182,7 +173,7 @@ input#inome {
     border: 1px solid gray;
     background-color: black;
     height: 50px;
-    width: 400px;
+    width: 300px;
     padding-left: 10px;
     font-size: 1em;
     border-radius: 5px;
