@@ -1,0 +1,210 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    overflow-x: hidden;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+}
+
+section {
+    max-width: 89%;
+    max-height: 97%;
+}
+
+.container {
+    margin-left: 20px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: none;
+}
+
+.left > img {
+    width: 65px;
+    margin-top: 10px;
+    margin-right: 450px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    width: 500px;
+    height: 540px;
+    margin-bottom: 300px;
+}
+
+h1 {
+    font-size: 3.6em;
+    line-height: 70px;
+}
+
+h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: normal;
+    color: rgba(128, 128, 128, 0.781);
+}
+
+h3 {
+    margin-top: 50px;
+    font-size: 1.6em;
+}
+
+h6 {
+    color: rgba(128, 128, 128, 0.911);
+    margin-top: 5px;
+    font-size: 9px;
+    font-weight: normal;
+}
+
+h6 > a {
+    text-decoration: none;
+}
+
+div.right p {
+    font-size: 0.8em;
+    margin-top: 50px;
+}
+
+input#google {
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 300px;
+    height: 40px;
+}
+
+input#apple {
+    margin-top: 10px;
+    border-radius: 20px;
+    width: 300px;
+    height: 40px;
+}
+
+input#nova {
+    background-color: #1A8CD8;
+    font-size: 0.9em;
+    font-weight: bold;
+    color: white;
+    border: 0px;
+    border-radius: 20px;
+    width: 300px;
+    height: 40px;
+}
+
+input#botao {
+    margin-top: 20px;
+    background-color: black;
+    border: 1px solid rgba(255, 255, 255, 0.356);
+    color: #1D8AE3;
+    border-radius: 20px;
+    width: 300px;
+    height: 40px;
+}
+
+input#nova:hover {
+    background-color: #1d78b4;
+}
+
+input#botao:hover {
+    background-color: #031625;
+}
+
+div#login {
+    display: none;
+    position: fixed;
+    width: 600px;
+    height: 600px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1001;
+    background: black;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+
+div#fundo-escuro {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(128, 128, 128, 0.404);
+    z-index: 1000;
+}
+
+input#fecha {
+    border: 0px;
+    font-size: 1em;
+    background-color: black;
+    color: white;
+}
+
+div#login img {
+    display: block;
+    margin: auto;
+    width: 50px;
+}
+
+div#login h1 {
+    font-size: 1.7em;
+}
+
+input#iemail {
+    margin-top: 10px;
+    border: 1px solid gray;
+    background-color: black;
+    height: 50px;
+    width: 400px;
+    padding-left: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+input#inome {
+    border: 1px solid gray;
+    background-color: black;
+    height: 50px;
+    width: 400px;
+    padding-left: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+input#iemail:hover {
+    border: 1px solid #1D9BF0;
+}
+
+input#inome:hover {
+    border: 1px solid #1D9BF0;
+}
+
+div#login h2 {
+    margin-top: 50px;
+    font-size: 1em;
+}
+
+div#login p {
+    margin-top: 10px;
+    font-weight: normal;
+    font-size: 0.8em;
+    color: rgba(128, 128, 128, 0.781);
+}
+
