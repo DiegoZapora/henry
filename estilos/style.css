@@ -18,6 +18,9 @@ body {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
+
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 
 .left > img {
