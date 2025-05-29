@@ -8,12 +8,11 @@
     .container {
         margin-top: 200px;
         flex-flow: row wrap;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
-        flex-grow: 3;
     }
 
     .left > img {
-        width: 400px;
+        width: 500px;
     }
 }
