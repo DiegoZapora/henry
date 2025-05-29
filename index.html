@@ -19,7 +19,7 @@
                 <form action="cadastro.php" method="post">
                     <input type="button" value="Fazer login como Anonimo" id="google"> <br>
                     <input type="button" value="Inscrever-se com Apple" id="apple">
-                    <h4>------------------ OU ------------------</h4>
+                    <h4 id="ou">OU</h4>
                     <input type="button" value="Criar conta" id="nova" onclick="login()">
                     <h6>Ao se inscrever, você concorda com os <a href="#">Termos de Serviço</a> e <br> a <a href="#">Política de Privacidade, incluindo o</a> <a href="#">Uso de Cookies.</a></h6>
                     <p>Já tem uma conta?</p>
@@ -34,6 +34,19 @@
                 <input type="email" name="email" id="iemail" placeholder="Email">
                 <h2>Data de nascimento</h2>
                 <p>Isso não será exibido publicamente. Confirme sua própria idade, mesmo se esta conta for de empresa, de um animal de estimação ou outros.</p>
+                <input type="date" name="" id="idate">
+                <button id="avan">Avançar</button>
+            </div>
+            <div id="lg700" style="display: none;">
+                <input type="button" value="X" onclick="fecha()" id="fecha">
+                <img src="imagens/x.png" alt="">
+                <h1>Criar sua conta</h1>
+                <input type="text" name="nome" id="inome" placeholder="Nome"> <br>
+                <input type="email" name="email" id="iemail" placeholder="Email">
+                <h2>Data de nascimento</h2>
+                <p>Isso não será exibido publicamente. Confirme sua própria idade, mesmo se esta conta for de empresa, de um animal de estimação ou outros.</p>
+                <input type="date" name="" id="idate">
+                <button id="avan">Avançar</button>
             </div>
             <div id="fundo-escuro"></div>
         </section>
